@@ -1,0 +1,32 @@
+
+# Criar uma loja de carros
+# Depois criar variaveis de carro de acordo com a marca e valor
+
+
+print('\nBem vindo a loja de carros do Dener!')
+print('Temos varias opcoes de carros.')
+lista_carros = int(input('Digite 1 para ver as opcoes de carros!\n - '))
+
+if lista_carros == 1:
+    print('\nMarcas:')
+    print('1 - Fiat')
+    print('2 - Volkswagen')
+    print('3 - Hyundai')
+    escolha = int(input('\nEscolha uma marca:\n - '))
+else:
+    print('Erro')
+
+if escolha == 1:
+    print('\n')
+    print('FIAT UNO - R$ 20.000,00')
+    print('FIAT MAREA - R$ 45.350,00')
+elif escolha == 2:
+    print('\n')
+    print('GOL - R$ 30.000,00')
+    print('JETTA - R$ 50.000,00')
+elif escolha == 3:
+    print('\n')
+    print('HB20S - R$ 60.000,00')
+    print('I30 - R$ 42.000,00')
+else:
+    print('ERROR')
